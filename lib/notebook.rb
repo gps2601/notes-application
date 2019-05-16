@@ -1,4 +1,11 @@
 class Notebook
-  def add_note
+  attr_reader :notes
+
+  def initialize
+    @notes = []
+  end
+
+  def add_note(note)
+    notes.push(note)
   end
 end
