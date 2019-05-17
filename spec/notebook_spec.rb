@@ -93,7 +93,7 @@ describe Notebook do
 
       note_title_and_body = my_notebook.select_note_by_title("An okayish note")
 
-      expect(note_title_and_body).to eq("Not note found!")
+      expect(note_title_and_body).to eq("No note found!")
     end
   end
 end

@@ -19,7 +19,7 @@ class Notebook
 
     note = notes.find { |note| note.title == title }
 
-    return "Not note found!" if note.nil?
+    return "No note found!" if note.nil?
 
     format(note)
   end
